@@ -1,0 +1,95 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 767
+  ClientWidth = 422
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = xFA69545B
+    Size.Width = 422.000000000000000000
+    Size.Height = 767.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFA69545B
+    object Rectangle2: TRectangle
+      Fill.Color = xFA373737
+      Size.Width = 422.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFA373737
+      object SpeedButton1: TSpeedButton
+        Size.Width = 49.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'detailstoolbutton'
+        Text = 'SpeedButton1'
+      end
+    end
+    object T: TRectangle
+      Fill.Color = xFA373737
+      Position.X = 64.000000000000000000
+      Position.Y = 152.000000000000000000
+      Size.Width = 281.000000000000000000
+      Size.Height = 305.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFA373737
+      object btn_login: TRoundRect
+        Fill.Color = xFFA39F9F
+        Position.X = 34.000000000000000000
+        Position.Y = 409.000000000000000000
+        Size.Width = 209.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claNull
+        object Text3: TText
+          Position.X = 8.000000000000000000
+          Position.Y = 8.000000000000000000
+          Size.Width = 193.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Login'
+        end
+      end
+      object Text1: TText
+        Position.X = 42.000000000000000000
+        Position.Y = 24.000000000000000000
+        Size.Width = 191.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Usu'#225'rio'
+        TextSettings.FontColor = claAliceblue
+      end
+      object Text2: TText
+        Position.X = 42.000000000000000000
+        Position.Y = 161.000000000000000000
+        Size.Width = 191.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Senha'
+        TextSettings.FontColor = claAliceblue
+      end
+      object Edit1: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 4
+        Position.X = 42.000000000000000000
+        Position.Y = 81.000000000000000000
+        Size.Width = 191.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Edit2: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 3
+        Position.X = 42.000000000000000000
+        Position.Y = 217.000000000000000000
+        Size.Width = 191.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+end

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/10/03 20:54:27.000.516,=C:\Users\teteu\Documents\Programação\Unit1.pas</Transaction>
+    <Transaction>2022/10/04 19:18:20.000.767,=C:\Users\teteu\Documents\Programação\Unit1.pas</Transaction>
+    <Transaction>2022/10/04 19:21:21.000.856,=C:\Users\teteu\Documents\Programação\Unit2.pas</Transaction>
+    <Transaction>2022/10/04 20:06:24.000.823,C:\Users\teteu\Documents\Programação\Unit1.fmx=C:\Users\teteu\Documents\PI\U_principal.fmx</Transaction>
+    <Transaction>2022/10/04 20:06:24.000.823,C:\Users\teteu\Documents\Programação\Unit1.pas=C:\Users\teteu\Documents\PI\U_principal.pas</Transaction>
+    <Transaction>2022/10/04 20:06:28.000.819,C:\Users\teteu\Documents\Programação\Unit2.pas=C:\Users\teteu\Documents\PI\U_dm.pas</Transaction>
+    <Transaction>2022/10/04 20:06:28.000.819,C:\Users\teteu\Documents\Programação\Unit2.dfm=C:\Users\teteu\Documents\PI\U_dm.dfm</Transaction>
+    <Transaction>2022/10/04 20:06:45.000.113,C:\Users\teteu\Documents\Programação\Project1.dproj=C:\Users\teteu\Documents\PI\pi_vinho.dproj</Transaction>
+    <Transaction>2022/10/04 20:07:32.000.121,=C:\Users\teteu\Documents\PI\Unit1.pas</Transaction>
+    <Transaction>2022/10/04 20:21:55.000.305,C:\Users\teteu\Documents\PI\U_login.pas=C:\Users\teteu\Documents\PI\Unit1.pas</Transaction>
+    <Transaction>2022/10/04 20:21:55.000.305,C:\Users\teteu\Documents\PI\U_login.fmx=C:\Users\teteu\Documents\PI\Unit1.fmx</Transaction>
+  </Transactions>
+	<BT_BuildType>Debug</BT_BuildType>  <ActiveMobileDevice>   <NoProfile Android=""/>
+  </ActiveMobileDevice>
+</BorlandProject>

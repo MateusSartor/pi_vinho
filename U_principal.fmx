@@ -1,0 +1,237 @@
+object frm_principal: Tfrm_principal
+  Left = 0
+  Top = 0
+  Caption = 'frm_principal'
+  ClientHeight = 767
+  ClientWidth = 422
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Panel1: TPanel
+    Align = Client
+    ControlType = Platform
+    Size.Width = 422.000000000000000000
+    Size.Height = 767.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rectangle1: TRectangle
+      Align = Client
+      Fill.Color = xFA69545B
+      Size.Width = 422.000000000000000000
+      Size.Height = 767.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFA69545B
+      object Rectangle2: TRectangle
+        Fill.Color = xFA373737
+        Size.Width = 422.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = xFA373737
+        object SpeedButton1: TSpeedButton
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'detailstoolbutton'
+          Text = 'SpeedButton1'
+        end
+      end
+      object Rectangle5: TRectangle
+        Fill.Color = xFA373737
+        Position.X = 72.000000000000000000
+        Position.Y = 152.000000000000000000
+        Size.Width = 257.000000000000000000
+        Size.Height = 434.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = xFA373737
+        object Rectangle6: TRectangle
+          Fill.Color = xFF3B3B3B
+          Position.X = 16.000000000000000000
+          Position.Y = 152.000000000000000000
+          Size.Width = 225.000000000000000000
+          Size.Height = 121.000000000000000000
+          Size.PlatformDefault = False
+          object Text6: TText
+            Position.X = 8.000000000000000000
+            Position.Y = 8.000000000000000000
+            Size.Width = 209.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Temperatura'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.FontColor = claAliceblue
+          end
+          object Text7: TText
+            Position.X = 10.000000000000000000
+            Position.Y = 57.000000000000000000
+            Size.Width = 207.000000000000000000
+            Size.Height = 56.000000000000000000
+            Size.PlatformDefault = False
+            Text = '24 '#186'C'
+            TextSettings.Font.Size = 28.000000000000000000
+            TextSettings.FontColor = claAliceblue
+          end
+        end
+        object Rectangle3: TRectangle
+          Fill.Color = xFF3B3B3B
+          Position.X = 16.000000000000000000
+          Position.Y = 281.000000000000000000
+          Size.Width = 225.000000000000000000
+          Size.Height = 121.000000000000000000
+          Size.PlatformDefault = False
+          object tt_ph: TText
+            Position.X = 10.000000000000000000
+            Position.Y = 56.000000000000000000
+            Size.Width = 207.000000000000000000
+            Size.Height = 57.000000000000000000
+            Size.PlatformDefault = False
+            Text = '12'
+            TextSettings.Font.Size = 28.000000000000000000
+            TextSettings.FontColor = claAliceblue
+          end
+          object Text5: TText
+            Position.X = 10.000000000000000000
+            Position.Y = 16.000000000000000000
+            Size.Width = 207.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Ph'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.FontColor = claAliceblue
+          end
+        end
+        object Rectangle7: TRectangle
+          Fill.Color = xFF3B3B3B
+          Position.X = 16.000000000000000000
+          Position.Y = 31.000000000000000000
+          Size.Width = 225.000000000000000000
+          Size.Height = 113.000000000000000000
+          Size.PlatformDefault = False
+          object tt_densidade: TText
+            Position.X = 8.000000000000000000
+            Position.Y = 48.000000000000000000
+            Size.Width = 209.000000000000000000
+            Size.Height = 57.000000000000000000
+            Size.PlatformDefault = False
+            Text = '3,4 mg/cm'#179
+            TextSettings.Font.Size = 28.000000000000000000
+            TextSettings.FontColor = claAliceblue
+          end
+          object Text3: TText
+            Position.X = 8.000000000000000000
+            Position.Y = 8.000000000000000000
+            Size.Width = 209.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Densidade'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.FontColor = claAliceblue
+          end
+        end
+      end
+      object Rectangle4: TRectangle
+        Fill.Color = xFA373737
+        Position.X = 25.000000000000000000
+        Position.Y = 64.000000000000000000
+        Size.Width = 368.000000000000000000
+        Size.Height = 73.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = xFA373737
+        object SpeedButton3: TSpeedButton
+          Position.X = 329.000000000000000000
+          Position.Y = 32.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowrighttoolbutton'
+          Text = 'SpeedButton2'
+        end
+        object SpeedButton4: TSpeedButton
+          Position.X = -8.000000000000000000
+          Position.Y = -7.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          Text = 'SpeedButton2'
+        end
+        object SpeedButton5: TSpeedButton
+          Position.X = -8.000000000000000000
+          Position.Y = 34.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          Text = 'SpeedButton2'
+        end
+        object SpeedButton2: TSpeedButton
+          Position.X = 329.000000000000000000
+          Position.Y = -8.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowrighttoolbutton'
+          Text = 'SpeedButton2'
+        end
+        object tt_setor: TText
+          Position.X = 25.000000000000000000
+          Position.Y = 8.000000000000000000
+          Size.Width = 313.000000000000000000
+          Size.Height = 24.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object tt_barril: TText
+          Position.X = 25.000000000000000000
+          Position.Y = 40.000000000000000000
+          Size.Width = 313.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object RoundRect1: TRoundRect
+        Fill.Color = xFA373737
+        Position.X = 64.000000000000000000
+        Position.Y = 648.000000000000000000
+        Size.Width = 265.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = xFA373737
+        object Text1: TText
+          Position.X = 24.000000000000000000
+          Position.Y = 8.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Informar gr'#225'fico di'#225'rio'
+          TextSettings.FontColor = claAliceblue
+        end
+      end
+      object RoundRect2: TRoundRect
+        Fill.Color = xFA373737
+        Position.X = 64.000000000000000000
+        Position.Y = 718.000000000000000000
+        Size.Width = 265.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = xFA373737
+        object Text2: TText
+          Position.X = 24.000000000000000000
+          Position.Y = 8.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Informar gr'#225'fico mensal'
+          TextSettings.FontColor = claAliceblue
+        end
+      end
+      object MultiView1: TMultiView
+        Size.Width = 129.000000000000000000
+        Size.Height = 767.000000000000000000
+        Size.PlatformDefault = False
+        Visible = False
+        TabOrder = 2
+      end
+    end
+  end
+end

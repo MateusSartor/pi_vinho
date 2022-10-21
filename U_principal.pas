@@ -48,4 +48,6 @@ implementation
 
 {$R *.fmx}
 
+uses U_dm, U_login, Unit2;
+
 end.

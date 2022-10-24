@@ -1,3 +1,3 @@
 <?php
-   $conexao = new PDO('mysql:local=locahost;port3306;dbname=vinho','root','');
-   $conexao -> exec('INSERT INTO usuario (id) VALUES ("'.$_GET['id'].'");');
+   $conexao = new PDO('MySQL:local=locahost;port3306;dbname=vinho','root','');
+   $conexao -> exec('INSERT INTO user (id) VALUES ("'.$_GET['id'].'");');
